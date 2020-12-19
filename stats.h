@@ -49,7 +49,7 @@
  *
  * @return <void>
  */
-void print_statistics();
+void print_statistics(unsigned char* arr,unsigned int size);
 
 
 /**
@@ -117,7 +117,7 @@ unsigned char find_minimum(unsigned char* arr,unsigned int size);
 /**
  * @brief <sort an array>
  *
- * <sort an array from largest to smallest "in-place sort">
+ * <sort an array from largest to smallest "in-place sort", using Insertion Sort Algorithm>
  *
  * @param <arr>  <a pointer to the array>
  * @param <size> <number of array elements>
