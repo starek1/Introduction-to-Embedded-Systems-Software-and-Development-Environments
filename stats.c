@@ -84,6 +84,7 @@ unsigned char find_median(unsigned char* arr,unsigned int size)
 	unsigned char median = 0, remainder=0;
 	sort_array(arr,size);
 	remainder = size%2;
+
 	if(remainder != 0) // odd number of elements
 	{
 		median = arr[size/2];
